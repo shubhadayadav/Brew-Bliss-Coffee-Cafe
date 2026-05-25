@@ -1,30 +1,37 @@
 <!doctype html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
-    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
-    <title>Brew & Bliss Cafe</title>
-</head>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
 
-<body>
+    <title>Brew & Bliss Cafe</title>
+  </head>
+
+  <body>
     <div class="main-container">
-        <!-- Navbar Starts Here -->
-        <header>
-            <nav class="navbar">
-                <a href="#">
-                    <h2 class="cafe-name">☕ Brew & Bliss</h2>
-                </a>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="">Menu</a></li>
-                    <li><a href="">About Us</a></li>
-                    <li><a href="">Gallery</a></li>
-                    <li><a href="">Contact</a></li>
-                </ul>
-                <button class="book-table" attribute="">
+      <!-- Navbar Starts Here -->
+      <header>
+        <nav class="navbar sticky">
+          <a href="#">
+            <h2 class="cafe-name">☕ Brew & Bliss</h2>
+          </a>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Gallery</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+          <button class="book-table" attribute="">
             <span> Book a Table </span>
             <i class="bx bx-calendar-event" style="color: #180101"></i>
             <!-- <i class="bx bx-chevrons-right bx-fade-right"></i> -->
@@ -33,34 +40,120 @@
               style="color: #5c0202"
             ></i> -->
           </button>
-            </nav>
-        </header>
+        </nav>
+      </header>
 
-        <main>
-            <!-- Hero Section  -->
-            <section class="hero-section">
-                <div class="hero-content">
-                    <h2>Good Coffee</h2>
-                    <h3>Great Moments ...</h3>
-                    <p>
-                        <!-- Freshly brewed coffee, delicious food and <br />a cozy place to unwind -->
-                        Welcome to our coffee paradise, where every bean tells <br /> a story and every cup sparks joy.
-                    </p>
+      <!-- Hero Section   -->
+      <main>
+        <section class="hero-section">
+          <div class="hero-content">
+            <h2>Good Coffee</h2>
+            <h3>Great Moments ...</h3>
+            <p>
+              <!-- Freshly brewed coffee, delicious food and <br />a cozy place to unwind -->
+              Welcome to our coffee paradise, where every bean tells <br />
+              a story and every cup sparks joy.
+            </p>
 
-                    <button class="view-menu">
-              <span> View Menu </span>
-              <i
-                class="bx bx-chevron-right bx-md bx-fade-right"
-                style="color: #3d0000"
-              ></i>
-            </button>
-                </div>
-                <div class="hero-img">
-                    <img src="./Cafe-img/hero-img.png" class="hero-img" alt="hero-img" />
-                </div>
-            </section>
-        </main>
+            <a href="#menu">
+              <button class="view-menu">
+                <span> View Menu </span>
+                <i
+                  class="bx bx-chevron-right bx-md bx-fade-right"
+                  style="color: #3d0000"
+                ></i>
+              </button>
+            </a>
+          </div>
+          <div class="hero-img">
+            <img
+              src="./Cafe-img/hero-img.png"
+              class="hero-img"
+              alt="hero-img"
+            />
+          </div>
+        </section>
+      </main>
     </div>
-</body>
 
+    <!-- Menu Section Starts From Here -->
+    <section id="menu">
+      <div class="menu-section">
+        <div class="menu-title">
+          <h2>Our Signature</h2>
+          <h3>Popular Picks</h3>
+          <!-- <div class="show-line">
+            <span class="line"> </span>
+            <span class="line"></span>
+          </div> -->
+        </div>
+        <!-- Menu-Card -->
+
+        <div class="menu-card swiper">
+          <!-- <i class="bx bx-chevrons-left swiper-button-prev"> </i> -->
+
+          <div class="menu-scroll menu-card-wrapper">
+            <div class="menu-list swiper-wrapper">
+              <div class="card swiper-slide">
+                <div class="card-img">
+                  <img class="" src="./Cafe-img/cappacinuo.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <h3>Cappuccino</h3>
+                  <p>Rich Espresso with steamed Milk & Foam.</p>
+                  <h2>Rs.150</h2>
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <div class="card-img">
+                  <img class="" src="./Cafe-img/cappacinuo.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <h3>Cappuccino</h3>
+                  <p>Rich Espresso with steamed Milk & Foam.</p>
+                  <h2>Rs.150</h2>
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <div class="card-img">
+                  <img class="" src="./Cafe-img/cappacinuo.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <h3>Cappuccino</h3>
+                  <p>Rich Espresso with steamed Milk & Foam.</p>
+                  <h2>Rs.150</h2>
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <div class="card-img">
+                  <img class="" src="./Cafe-img/cappacinuo.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <h3>Cappuccino</h3>
+                  <p>Rich Espresso with steamed Milk & Foam.</p>
+                  <h2>Rs.150</h2>
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <div class="card-img">
+                  <img class="" src="./Cafe-img/cappacinuo.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <h3>Cappuccino</h3>
+                  <p>Rich Espresso with steamed Milk & Foam.</p>
+                  <h2>Rs.150</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Slider JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="./index.js"></script>
+  </body>
 </html>
