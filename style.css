@@ -323,16 +323,16 @@ ul li a:hover {
 /* About Us section Start here */
 
 #about {
-  background-color: #470202;
+  background-color: #3d0000;
   padding: 35px 0px;
 }
 
 .about-container .menu-title {
-  margin: 80px 10px;
+  margin: 40px 10px;
 }
 
 .about-container .menu-title h2 {
-  font-size: 22px;
+  font-size: 21px;
   font-weight: 100;
   /* color: #582828; */
   /* color: #d47617; */
@@ -341,14 +341,37 @@ ul li a:hover {
 
 .about-container .menu-title h3 {
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 40px;
+  font-size: 37px;
   font-weight: 700;
   color: #fcfbfb;
 }
 
 .about-us-wrapper {
-  width: 80%;
-  height: 50%;
+  width: 90%;
+  height: 60%;
   border: 2px solid rgb(63, 49, 49);
-  margin: 80px 0px;
+  margin: 80px 90px;
+}
+
+.about-us-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-us-content {
+  margin: 60px 0px;
+  padding: 10px 80px;
+  /* padding: 2px 5px; */
+}
+
+.about-us-content p {
+  /* line-height: 2; */
+  /* margin: 2px 7px 0px 0px; */
+  color: white;
+}
+
+.tea-cup {
+  font-size: 50px;
+  color: #fcfbfb;
 }
