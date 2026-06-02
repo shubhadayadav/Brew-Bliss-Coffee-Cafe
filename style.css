@@ -435,12 +435,12 @@ ul li a:hover {
 }
 
 .img-card {
-  width: 230px;
-  height: 200px;
+  width: 290px;
+  height: 240px;
   /* border: 2px solid #3d0000; */
   border-radius: 6%;
-  margin: 95px 0px;
-  padding: 0px 5px;
+  margin: 95px 15px;
+  padding: 0px 9px;
 }
 
 .img-card img {
