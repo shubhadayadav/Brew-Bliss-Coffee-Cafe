@@ -435,12 +435,11 @@ ul li a:hover {
 }
 
 .img-card {
-  width: 290px;
-  height: 240px;
-  /* border: 2px solid #3d0000; */
+  width: 500px;
+  height: 220px;
   border-radius: 6%;
-  margin: 95px 15px;
-  padding: 0px 9px;
+  margin: 67px 15px 125px 15px;
+  padding: 0px 5px;
 }
 
 .img-card img {
@@ -449,37 +448,20 @@ ul li a:hover {
   object-fit: cover;
   border-radius: 6%;
   opacity: 0.9;
-  transition: all 1s ease;
+  transition: all 1s ease-in-out;
 }
 
 .img-card:hover img {
   transform: scale(1.1);
   opacity: 1;
+  border: 2px double #860202ef;
 }
-
-/* .img-02 {
-  width: 100%;
-  height: 400px;
-  background-size: cover;
-  background-position: center;
-  background-image:
-    linear-gradient(rgba(111, 78, 55, 0.5), rgba(111, 78, 55, 0.5)),
-    url("./Cafe-img/Gallery02.jpg");
-}
-
-.img-02:hover {
-  background-color: rgba(74, 44, 17, 0);
-  opacity: 1;
-} */
 
 /* Contact Design */
 
 #contact {
   /* background-color: #f8f5f2; */
   padding: 0px 0px 0px 0px;
-  /* background-color: #3d0000; */
-  /* padding: 0px 0px 0px 0px; */
-  /* padding: 65px 0px; */
 }
 
 .contact-container {
