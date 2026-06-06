@@ -469,20 +469,58 @@ ul li a:hover {
   height: 600px;
   background-size: cover;
   background-position: center;
+  /* background-image:
+    linear-gradient(rgba(56, 8, 7, 0.5), rgba(82, 10, 10, 0.637)),
+    url("./Cafe-img/contact-bg.jpg"); */
   background-image:
-    linear-gradient(rgba(56, 8, 7, 0.5), rgba(58, 3, 2, 0.5)),
+    linear-gradient(rgba(56, 8, 7, 0.5), rgba(82, 13, 13, 0.39)),
     url("./Cafe-img/contact-bg.jpg");
 }
 
 .col-1 {
-  /* line-height: 2;
-  margin-top: 55px;
-  padding: 35px; */
+  /* line-height: 2; */
+  /* margin-top: 55px; */
+  /* padding: 35px; */
+}
+
+.col-1 button {
+  margin: 25px 0px 0px 0px;
+  padding: 8px 17px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.col-1 h2 {
+  color: #ffb95eee;
+  font-size: 36px;
+  font-weight: 500;
+  padding: 0px 5px;
+}
+
+.col-1 h1 {
+  color: white;
+  font-weight: 600;
 }
 
 .col-2 {
-  /* line-height: 1;
-  padding: 25px; */
+}
+
+.col-2 h3 {
+  display: flex;
+  gap: 12px;
+  margin-left: 8px;
+  color: white;
+  font-weight: 600;
+}
+
+.col-2 img {
+  font-weight: 800;
+}
+
+.contact-content-logo {
+  /* display: none; */
+  margin-left: -28px;
+  padding-top: 8px;
 }
 
 .contact-content {
@@ -492,9 +530,11 @@ ul li a:hover {
   padding-top: 95px;
 }
 
+/* Footer Starts  */
+
 .footer {
-  background-color: #500c0c;
+  background-color: #46181896;
   padding: 55px;
-  margin: 95px 0px;
+  margin: 10% 0px 0px 0px;
   color: #fcfbfb;
 }
