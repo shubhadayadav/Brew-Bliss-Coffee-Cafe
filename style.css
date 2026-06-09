@@ -473,7 +473,7 @@ ul li a:hover {
     linear-gradient(rgba(56, 8, 7, 0.5), rgba(82, 10, 10, 0.637)),
     url("./Cafe-img/contact-bg.jpg"); */
   background-image:
-    linear-gradient(rgba(56, 8, 7, 0.5), rgba(82, 13, 13, 0.39)),
+    linear-gradient(rgba(78, 38, 38, 0.637), rgba(87, 39, 39, 0.699)),
     url("./Cafe-img/contact-bg.jpg");
 }
 
@@ -484,10 +484,11 @@ ul li a:hover {
 }
 
 .col-1 button {
-  margin: 25px 0px 0px 0px;
+  margin: 35px 0px 0px 0px;
   padding: 8px 17px;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 600;
+  color: white;
 }
 
 .col-1 h2 {
@@ -533,8 +534,73 @@ ul li a:hover {
 /* Footer Starts  */
 
 .footer {
-  background-color: #46181896;
-  padding: 55px;
-  margin: 10% 0px 0px 0px;
+  background-color: #501212c2;
+  /* padding: 55px; */
+  margin: 178px 0px 0px 0px;
+  padding: 14px 50px;
   color: #fcfbfb;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* height: 130px; */
+}
+
+.footer-brand {
+  margin-bottom: 20px;
+}
+
+.footer-brand .cafe-name:hover {
+  color: #dd8023;
+}
+
+.footer-brand small {
+  margin-top: 16px;
+}
+
+.headline {
+  text-align: center;
+  font-weight: 600;
+  margin-top: 7px;
+  font-size: 19px;
+}
+
+.quick-links-list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 90px;
+  list-style: none;
+  padding: 0px 5px;
+  text-align: center;
+}
+
+.quick-links-list li {
+  width: 120px;
+  padding: 0px 8px;
+  margin: 7px 0px 7px 0px;
+  cursor: pointer;
+  color: #fcfbfb;
+}
+
+.quick-links-list li a {
+  color: #f8f5f2;
+}
+
+.quick-links-list li a:hover {
+  color: #dd8023;
+}
+
+.follow-us {
+  margin-bottom: 53px;
+}
+
+.follow-us i {
+  margin-top: 12px 12px;
+  padding: 7px 19px;
+  font-size: 19px;
+  color: #f8f5f2;
+}
+
+.follow-us i:hover {
+  color: #dd8023;
 }
