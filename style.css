@@ -8,6 +8,10 @@
     text-decoration: none;
 }
 
+a {
+    color: #fcfbfb;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -31,7 +35,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: #3f0202;
+    background-color: #3d0000;
     /* background: transparent; */
     position: fixed;
     top: 0;
@@ -65,7 +69,7 @@ ul li {
 
 ul li:hover {
     /* background-color: goldenrod; */
-    background-color: #d4a373;
+    background-color: #f3881ef3;
     color: #3d0000;
 }
 
@@ -83,11 +87,21 @@ ul li a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #d4a373;
+    /* background-color: #d4a373; */
+    background-color: #f3881ef3;
     color: #fcfbfb;
-    border: none;
+    border: 2px solid #dd8023;
     cursor: pointer;
     margin-left: 8px;
+    background-size: 200% 100%;
+    background-position: right bottom;
+    background-image: linear-gradient(to right, #500303 50%, transparent -50%);
+    transition: all 0.3s ease-out;
+}
+
+.book-table:hover {
+    background-position: left bottom;
+    color: #f8f5f2;
 }
 
 .book-table span {
@@ -120,7 +134,7 @@ ul li a:hover {
     font-size: 35px;
     font-weight: 200;
     font-family: cursive;
-    color: #df974f;
+    color: #f3881ef3;
 }
 
 .hero-content h3 {
@@ -145,7 +159,7 @@ ul li a:hover {
     margin-left: 28px;
     border: none;
     border-radius: 25px;
-    background-color: #df974f;
+    background-color: #f3881ef3;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -421,7 +435,7 @@ ul li a:hover {
 /* Gallery Starts Here */
 
 #Gallery {
-    background-color: #f8f5f2;
+    background-color: #fff8f2;
     padding: 25px 0px 20px 0px;
 }
 
@@ -456,7 +470,7 @@ ul li a:hover {
 .img-card:hover img {
     transform: scale(1.1);
     opacity: 1;
-    border: 2px double #860202ef;
+    border: 2px double #240000d2;
 }
 
 
@@ -472,10 +486,8 @@ ul li a:hover {
     height: 600px;
     background-size: cover;
     background-position: center;
-    /* background-image:
-    linear-gradient(rgba(56, 8, 7, 0.5), rgba(82, 10, 10, 0.637)),
-    url("./Cafe-img/contact-bg.jpg"); */
-    background-image: linear-gradient(rgba(78, 38, 38, 0.637), rgba(87, 39, 39, 0.699)), url("./Cafe-img/contact-bg.jpg");
+    background-image: linear-gradient(rgba(102, 34, 33, 0.678), rgba(87, 44, 44, 0.452)), url("./Cafe-img/contact-bg.jpg");
+    /* background-image: linear-gradient(rgba(78, 38, 38, 0.637), rgba(87, 39, 39, 0.699)), url("./Cafe-img/contact-bg.jpg"); */
 }
 
 .col-1 {
@@ -487,14 +499,25 @@ ul li a:hover {
 .col-1 button {
     margin: 35px 0px 0px 0px;
     padding: 8px 17px;
-    font-size: 22px;
-    font-weight: 600;
-    color: white;
+    border: 2px solid #dd8023;
+    font-size: 27px;
+    font-weight: 700;
+    color: #7a2004;
+    background-color: #f3881ef3;
+    background-size: 200% 100%;
+    background-position: right bottom;
+    background-image: linear-gradient(to right, #500303 50%, transparent -50%);
+    transition: all 0.3s ease-out;
+}
+
+.col-1 button:hover {
+    background-position: left bottom;
+    color: #f8f5f2;
 }
 
 .col-1 h2 {
-    color: #ffb95eee;
-    font-size: 36px;
+    color: #ffb56cf3;
+    font-size: 35px;
     font-weight: 500;
     padding: 0px 5px;
 }
@@ -535,9 +558,9 @@ ul li a:hover {
 /* Footer Starts  */
 
 .footer {
-    background-color: #501212c2;
-    /* padding: 55px; */
-    margin: 178px 0px 0px 0px;
+    background-color: #310000d7;
+    padding: 65px;
+    margin: 172px 0px 0px 0px;
     padding: 14px 50px;
     color: #fcfbfb;
     display: flex;
@@ -561,7 +584,7 @@ ul li a:hover {
 .headline {
     text-align: center;
     font-weight: 600;
-    margin-top: 7px;
+    margin-top: 8px;
     font-size: 19px;
 }
 
@@ -614,3 +637,21 @@ ul li a:hover {
     margin-top: 10%;
     margin-right: 10%;
 } */
+
+
+/* Book A Table  */
+
+.table-container {
+    background-color: #f8f3ee;
+    padding: 50px;
+}
+
+.bookTable-content {
+    width: 70%;
+    height: 100%;
+    background-color: #f3ebeb;
+    position: relative;
+    left: 50px;
+    top: 20px;
+    padding: 15px;
+}
