@@ -29,15 +29,15 @@
                     <li><a href="#Gallery">Gallery</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
-                <button class="book-table" attribute="">
-            <a href="#bookTable"> <span> Book a Table </span></a>
-            <i class="bx bx-calendar-event"></i>
-            <!-- <i class="bx bx-chevrons-right bx-fade-right"></i> -->
-            <!-- <i
+                <a href="#bookTable"><button class="book-table">
+             <span> Book a Table </span></a>
+                <i class="bx bx-calendar-event"></i>
+                <!-- <i class="bx bx-chevrons-right bx-fade-right"></i> -->
+                <!-- <i
               class="bx bx-chevron-right-circle bx-fade-right"
               style="color: #5c0202"
             ></i> -->
-          </button>
+                </button>
             </nav>
         </header>
 
@@ -74,7 +74,10 @@
     <section id="menu">
         <div class="menu-section">
             <div class="menu-title">
-                <h2>Our Signature</h2>
+                <h2>
+                    <img class="leaf1" width="28" height="28" src="https://img.icons8.com/sf-ultralight-filled/25/f1cc9c/leaf.png" alt="leaf" />Our Signature
+                    <img class="leaf2" width="24" height="24" src="https://img.icons8.com/external-zen-filled-royyan-wijaya/24/f1cc9c/external-leaf-charity-zen-filled-royyan-wijaya.png" alt="external-leaf-charity-zen-filled-royyan-wijaya" />
+                </h2>
                 <h3 style="color: #700101">Popular Picks</h3>
                 <div>
                     <span class="show-line"></span>
@@ -164,7 +167,10 @@
     <section id="about">
         <div class="about-container">
             <div class="menu-title">
-                <h2>Why People</h2>
+                <h2>
+                    <img class="leaf1" width="28" height="28" src="https://img.icons8.com/sf-ultralight-filled/25/f1cc9c/leaf.png" alt="leaf" />Why People
+                    <img class="leaf2" width="24" height="24" src="https://img.icons8.com/external-zen-filled-royyan-wijaya/24/f1cc9c/external-leaf-charity-zen-filled-royyan-wijaya.png" alt="external-leaf-charity-zen-filled-royyan-wijaya" />
+                </h2>
                 <h3>Love Us</h3>
                 <div>
                     <span class="show-line"></span>
@@ -224,7 +230,10 @@
     <section id="Gallery">
         <div class="gallery-container">
             <div class="menu-title">
-                <h2>Moments at</h2>
+                <h2>
+                    <img class="leaf1" width="28" height="28" src="https://img.icons8.com/sf-ultralight-filled/25/f1cc9c/leaf.png" alt="leaf" />Moments at
+                    <img class="leaf2" width="24" height="24" src="https://img.icons8.com/external-zen-filled-royyan-wijaya/24/f1cc9c/external-leaf-charity-zen-filled-royyan-wijaya.png" alt="external-leaf-charity-zen-filled-royyan-wijaya" />
+                </h2>
                 <h3 style="color: #700101">Our Cafe</h3>
                 <div>
                     <span class="show-line"></span>
@@ -250,24 +259,115 @@
         </div>
     </section>
 
+    <!-- Book A Table   -->
+
     <section id="bookTable">
         <div class="table-container">
             <div class="menu-title">
+                <h2>
+                    <img class="leaf1" width="28" height="28" src="https://img.icons8.com/sf-ultralight-filled/25/f1cc9c/leaf.png" alt="leaf" />Reserve Your Spot
+                    <img class="leaf2" width="24" height="24" src="https://img.icons8.com/external-zen-filled-royyan-wijaya/24/f1cc9c/external-leaf-charity-zen-filled-royyan-wijaya.png" alt="external-leaf-charity-zen-filled-royyan-wijaya" />
+                </h2>
                 <h3 style="color: #700101">Book Your Table</h3>
                 <div>
                     <span class="show-line"></span>
                 </div>
             </div>
+            <!-- Form starts from here  -->
             <div class="bookTable-content">
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, in optio consectetur suscipit odio nesciunt dolorum unde, veritatis deleniti, tempora et iure. Minus minima magnam, consectetur quos eum autem repudiandae?Lorem ipsum dolor sit amet consectetur
-                    adipisicing elit. Aut repudiandae totam harum, consequuntur quae est ea nostrum dignissimos voluptates atque sapiente ipsum maxime natus? Nam debitis et necessitatibus facere cupiditate harum incidunt sed totam corrupti autem temporibus
-                    iusto maxime aliquam sint modi natus, perferendis fuga sequi dolores cum eveniet, soluta quae. Labore consectetur modi numquam ipsa ad laudantium, saepe harum. Distinctio earum perferendis nobis ut. Similique saepe doloribus architecto
-                    rerum aut aperiam dolor, eaque ratione ut nam. Recusandae ipsam minima fugit deleniti dolores suscipit quia, porro dicta hic sapiente excepturi quos neque veniam quo, accusamus nihil impedit tempora repudiandae eaque!
-                </p>
-                <div class="col-1"></div>
-                <div class="col-2"></div>
+                <div class="col-1 book-img">
+                    <img src="./Cafe-img/gallery1.jpg" alt="" />
+                </div>
+                <span class="separate-line2"> </span>
+
+
+
+                <div class="col-2">
+                    <div class="tableForm">
+                        <div class="reservationHading">
+                            <span class="rst-line"></span>
+                            <i class="bx bx-calendar-event" style="color: #7a2004; font-size: 18px"></i> Reservation Details <span class="rst-line"></span>
+                            <small class="smalltext">Reserve your favorite seat and enjoy our coffee</small>
+                        </div>
+                        <form action="">
+                            <div class="tableData">
+                                <!-- Row 1  -->
+                                <div class="Row-1">
+                                    <div class="form-group">
+                                        <label for="name" class="required">Full Name</label>
+
+                                        <input type="text" name="user_name" id="name" placeholder="Ex.John Doe" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="user_number" class="required">Phone Number</label>
+                                        <input type="tel" name="user_number" id="user_number" placeholder="1234567890" required>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="user_emialId" class="required">Email Id</label>
+                                    <input type="email" name="user_emialId" id="user_emialId" placeholder="Johndoe@gmail.com" required>
+                                </div>
+                                <!-- Row 2 -->
+                                <div class="Row-1">
+                                    <div class="form-group">
+                                        <label for="user_selectDate" class="required">Select Date</label>
+                                        <input type="date" name="user_selectDate" id="user_selectDate" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="user_selectTime" class="required">Select Time</label>
+                                        <input type="time" name="user_selectTime" id="user_selectTime" required>
+                                    </div>
+                                </div>
+                                <div class="Row-1">
+                                    <div class="form-group">
+                                        <label for="guests" class="required">Select Number Of Guests</label>
+                                        <div class="select-container">
+                                            <select name="guests" id="guests">
+                                          <option value="1" >1</option>
+                                          <option value="2" >2</option>
+                                          <option value="3">3</option>
+                                          <option value="4"  >4</option>
+                                          <option value="5+">5+ </option>
+                                           </select>
+                                        </div>
+                                    </div>
+
+
+
+                                    <div class="checkbox-group">
+                                        <h4 class="seat">Seating Preference</h4>
+                                        <!-- Indoor Seating  -->
+
+                                        <input type="checkbox" name="venue" id="_indoor" value="yes">
+                                        <label for="_indoor">Indoor</label>
+
+                                        <!-- Outdoor Seating -->
+                                        <input type="checkbox" name="venue" id="_outdoor" value="yes">
+                                        <label for="_outdoor">Outdoor</label>
+
+                                        <!-- No prefer -->
+                                        <input type="checkbox" name="venue" id="no_prefer" value="yes">
+                                        <label for="no_prefer">No Preference</label>
+
+                                    </div>
+
+                                </div>
+                                <div class="form-group">
+                                    <label for="special_request" class="textarea">Special Request (Optional)</label>
+                                    <textarea type="text" name="special_request" id="special_request" placeholder="Any special request or note "></textarea>
+                                </div>
+
+                                <button class="booktableButton" type="submit"> ☕ Book Table </button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <h6 class="tableAssist">Need immediate assistance? call +91xxxxxxxx</h6>
+                </div>
+                </form>
             </div>
+        </div>
         </div>
     </section>
 
@@ -279,10 +379,10 @@
                 <div class="col-1">
                     <h2>Visit Us Today ....</h2>
                     <h1>We Can't Wait to Serve You!</h1>
-                    <button class="book-table" attribute="">
+                    <a href="#bookTable"><button class="book-table" attribute=""> 
               <span> Book a Table </span>
               <i class="bx bx-calendar-event" style="color: #180101"></i>
-            </button>
+            </button></a>
                 </div>
                 <div class="col-2">
                     <h3>
@@ -343,4 +443,4 @@
     <script src="./index.js "></script>
 </body>
 
-</html>
+</html
