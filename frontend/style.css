@@ -53,6 +53,7 @@ h2 {
 
 ul {
   display: flex;
+  margin-left: 55px;
 }
 
 ul li {
@@ -60,6 +61,7 @@ ul li {
   font-size: 16px;
   /* margin: 12px 10px; */
   margin: 15px;
+  font-size: 16px;
   border: none;
   padding: 4px 13px;
   border-radius: 25px;
@@ -122,7 +124,7 @@ ul li a:hover {
   /* background-size: contain; */
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   /* background-attachment: fixed; */
 }
 
@@ -175,9 +177,12 @@ ul li a:hover {
 }
 
 .hero-img {
-  /* margin-bottom: 30px; */
-  /* width: 450px;
-    height: 550px; */
+  /* margin-top: 30px; */
+  margin-bottom: 10px;
+  /* width: 400px;
+  height: 440px; */
+margin-right: 25px;
+    
 }
 
 /* Menu Section */
@@ -268,8 +273,10 @@ ul li a:hover {
 }
 
 .card-img {
-  width: 247px;
-  height: 170px;
+  /* width: 247px; */
+  width: 100%;
+  height: 190px;
+  /* height: 200px; */
   background-position: center;
   /* background-image: url(" ./Cafe-img/cappacinuo.avif"); */
   /* background-size: cover; */
@@ -279,16 +286,16 @@ ul li a:hover {
 
 .card-img img {
   width: 100%;
-  height: 170px;
+  height: 210px;
   object-fit: cover;
   filter: brightness(0.9);
   transition: all 1s ease;
 }
 
-.card-img:hover img {
+/* .card-img:hover img {
   transform: scale(1.1);
   opacity: 1;
-}
+} */
 
 .card-content {
   margin: 3px 9px;
@@ -484,8 +491,9 @@ ul li a:hover {
   background-size: cover;
   background-position: center;
   background-image:
-    linear-gradient(rgba(102, 34, 33, 0.678), rgba(87, 44, 44, 0.452)),
-    url("./Cafe-img/contact-bg.jpg");
+    linear-gradient(rgba(75, 1, 0, 0.712), rgba(59, 0, 0, 0.521)),
+    url("./assets/contact-bg.jpg");
+
   /* background-image: linear-gradient(rgba(78, 38, 38, 0.637), rgba(87, 39, 39, 0.699)), url("./Cafe-img/contact-bg.jpg"); */
 }
 
@@ -664,8 +672,9 @@ ul li a:hover {
 .bookTable-content {
   /* padding: 15px; */
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
+  padding-bottom: 25px;
   /* position: relative; */
 }
 
@@ -680,13 +689,14 @@ ul li a:hover {
 }
 
 .book-img img {
-  width: 70%;
+  width: 50%;
+  padding: 0;
   margin-top: 20px;
   margin-left: 29px;
   /* padding: 5px 0; */
   border-radius: 50%;
   box-shadow: 0px 5px 20px 2px rgb(197, 195, 195);
-  /* background: linear-gradient(195deg, #5d7888 0%, #635a96 50%); */
+  background: linear-gradient(195deg, #5d7888 0%, #635a96 50%);
 }
 
 /* .separate-line2::after {
@@ -715,8 +725,8 @@ ul li a:hover {
   padding: 22px 10px;
   width: 625px;
   height: 542px;
-  left: 0px;
-  top: 31px;
+  left: -90%;
+  top: 50px;
   border-radius: 15px;
   border: 1px solid transparent;
   transition:
@@ -905,11 +915,13 @@ label.required::after {
   background: #720101;
 }
 
-.tableAssist {
+/* .tableAssist {
   position: relative;
+  display: inline-block;
   left: 0px;
-  top: 556px;
+  top: 575px;
   font-weight: 500;
   font-size: 11px;
   margin-top: 2px;
-}
+  margin-bottom: 15px;
+} */
