@@ -491,12 +491,12 @@ margin-right: 25px;
   background-size: cover;
   background-position: center;
   background-image:
-    linear-gradient(rgba(75, 1, 0, 0.712), rgba(59, 0, 0, 0.521)),
+    linear-gradient(rgba(75, 1, 0, 0.658), rgba(59, 0, 0, 0.521)),
     url("./assets/contact-bg.jpg");
+    
 
-  /* background-image: linear-gradient(rgba(78, 38, 38, 0.637), rgba(87, 39, 39, 0.699)), url("./Cafe-img/contact-bg.jpg"); */
-}
-
+ }
+  
 .col-1 {
   /* line-height: 2; */
   /* margin-top: 55px; */
