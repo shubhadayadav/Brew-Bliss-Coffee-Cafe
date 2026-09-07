@@ -1,5 +1,6 @@
 require("dotenv").config();
 const express = require("express");
+const connectDB= require("./config/db")
 const cors = require("cors");
 
 const app = express();
@@ -22,6 +23,7 @@ app.post("/api/reservation", (req, res) => {
    res.json({ message: "Successfully get Reservation Data" });
 });
 
+connectDB();
 
 app.listen(PORT, () => {
   console.log(`Server is starting on ${PORT}`);
