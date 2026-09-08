@@ -15,9 +15,7 @@ app.get("/", (req, res) => {
   res.send("Hello World!");
 });
 
-// app.get("/login", (req, res) => {
-//   res.send(" Login Page Loading");
-// });
+
 app.post("/api/reservation", (req, res) => {
   console.log(`Data received : `, req.body)
    res.json({ message: "Successfully get Reservation Data" });
