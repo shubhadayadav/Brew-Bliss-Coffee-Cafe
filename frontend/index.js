@@ -63,11 +63,6 @@ const validateForm = () => {
   const telNumber = document.getElementById("user_number").value.trim();
   const emailId = document.getElementById("user_emialId").value.trim();
   const selectDate = document.getElementById("user_selectDate").value;
-  // const selectTime = document.getElementById("user_selectTime").value;
-  // const Guests = document.getElementById("guests").value;
-  // const indoor = document.getElementById("_indoor").checked;
-  // const outdoor = document.getElementById("_outdoor").checked;
-  // const noPreference = document.getElementById("no_prefer").checked;
 
   const nameError = document.getElementById("nameError");
   const telnumError = document.getElementById("telnumError");
