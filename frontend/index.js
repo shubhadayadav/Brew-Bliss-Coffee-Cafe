@@ -164,3 +164,31 @@ closePopup.addEventListener("click", () => {
 backHomeBtn.addEventListener("click", () => {
   window.location.href = "index.html";
 });
+
+// =====================
+// Hamburger Menu
+// =====================
+
+const menuToggle = document.getElementById("menuToggle");
+const closeMenu = document.getElementById("closeMenu");
+const navMenu = document.getElementById("navMenu");
+const navbar = document.querySelector(".navbar");
+
+menuToggle.addEventListener("click", () => {
+  navMenu.classList.add("active");
+  navbar.classList.add("menu-open");
+});
+
+closeMenu.addEventListener("click", () => {
+  navMenu.classList.remove("active");
+  navbar.classList.remove("menu-open");
+});
+
+const navLinks = document.querySelectorAll("#navMenu a");
+
+navLinks.forEach((link) => {
+  link.addEventListener("click", () => {
+    navMenu.classList.remove("active");
+    navbar.classList.remove("menu-open");
+  });
+});

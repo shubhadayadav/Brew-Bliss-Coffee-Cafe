@@ -24,22 +24,36 @@
                 <a href="#">
                     <h2 class="cafe-name">☕ Brew & Bliss</h2>
                 </a>
-                <ul>
+                <button class="menu-toggle" id="menuToggle">
+                    <i class="bx bx-menu"></i>
+                </button>
+
+                <button class="close-menu" id="closeMenu">
+                    <i class="bx bx-x"></i>
+                </button>
+
+                <ul id="navMenu">
                     <li><a href="#">Home</a></li>
                     <li><a href="#menu">Menu</a></li>
                     <li><a href="#about">About Us</a></li>
                     <li><a href="#Gallery">Gallery</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
-                <a href="#bookTable"><button class="book-table">
-                        <span> Book a Table </span></a>
-                <i class="bx bx-calendar-event"></i>
-                <!-- <i class="bx bx-chevrons-right bx-fade-right"></i> -->
-                <!-- <i
+                <div class="mobile-book">
+                    <a href="#bookTable">
+                        <button class="book-table">
+                            <span> Book a Table </span>
+                            <i class="bx bx-calendar-event"></i>
+                            <!-- <i class="bx bx-chevrons-right bx-fade-right"></i> -->
+                            <!-- <i
               class="bx bx-chevron-right-circle bx-fade-right"
               style="color: #5c0202"
             ></i> -->
-                </button>
+                        </button>
+                    </a>
+                </div>
+
+
             </nav>
         </header>
 
@@ -61,7 +75,7 @@
                         </button>
                     </a>
                 </div>
-                <div class="hero-img">
+                <div class="hero-img   hero-img-container">
                     <!-- <img src="./Cafe-img/hero-img.png" class="hero-img" alt="hero-img" /> -->
                     <img src="./assets/new-home-img2.png" class="hero-img" alt="hero-img" />
                 </div>
