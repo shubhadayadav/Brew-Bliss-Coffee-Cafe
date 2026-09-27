@@ -2,7 +2,7 @@ new Swiper(".menu-scroll", {
   // Optional parameters
   slidesPerView: 3,
   spaceBetween: 30,
-  //   loop: true,
+  // loop: true,
 
   // If we need pagination
   pagination: {
@@ -15,6 +15,25 @@ new Swiper(".menu-scroll", {
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
+  },
+  breakpoints: {
+    // Mobile
+    0: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+    },
+
+    // Tablet
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 25,
+    },
+
+    // Desktop
+    1024: {
+      slidesPerView: 3,
+      spaceBetween: 30,
+    },
   },
 });
 

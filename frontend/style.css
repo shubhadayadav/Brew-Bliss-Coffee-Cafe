@@ -1057,6 +1057,8 @@ label.required::after {
 
 @media (max-width: 1024px) {
 
+/* Hero Section And Navbar */
+
   .navbar {
     justify-content: space-between;
     padding: 0 25px;
@@ -1088,12 +1090,12 @@ label.required::after {
   }
 
  .hero-section {
-        min-height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 30px;
-        padding: 100px 5% 40px;
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+    gap: 30px;
+   padding: 100px 5% 40px;
     }
 
     .hero-content {
@@ -1124,14 +1126,515 @@ label.required::after {
     margin: 0px 150px;
 }
 
+/* Menu Page */
+ #menu {
+    width: 100%;
+    padding: 35px 20px;
+    overflow: hidden;
+  }
+
+  .menu-title {
+    margin: 40px 0;
+  }
+
+  .menu-title h2 {
+    font-size: 20px;
+    margin: 0;
+  }
+
+  .menu-title h3 {
+    font-size: 30px;
+  }
+
+  .menu-card {
+    width: 100%;
+    max-width: 900px;
+    margin: 30px auto;
+    justify-content: center;
+  }
+
+  .menu-card-wrapper {
+    width: 100%;
+    max-width: 800px;
+    margin: 30px auto;
+    overflow: hidden;
+  }
+
+  .card {
+    height: 320px;
+  }
+   .card:hover {
+  transform: none !important;
+  box-shadow:4px -9px 15px rgba(0, 0, 0, 0.25) !important;
+  
 }
+
+  .card-img {
+    height: 180px;
+  }
+
+  .card-img img {
+    height: 190px;
+  }
+
+  .card-content {
+    padding: 14px;
+  }
+
+  .card-content h3 {
+    font-size: 19px;
+  }
+
+  .card-content p {
+    font-size: 12px;
+  }
+
+  .card-content .price {
+    font-size: 19px;
+  }
+
+  /* =========================================
+   ABOUT US - RESPONSIVE DESIGN
+========================================= */
+ #about {
+    padding: 40px 20px 30px;
+    overflow: hidden;
+  }
+
+  /* Title */
+  .about-container .menu-title {
+    margin: 40px 0;
+  }
+
+  .about-container .menu-title h2 {
+    font-size: 20px;
+  }
+
+  .about-container .menu-title h3 {
+    font-size: 32px;
+  }
+
+  .show-line::after {
+    padding: 0 60px;
+  }
+
+
+  /* About content wrapper */
+  .about-us-wrapper {
+    width: 100%;
+    height: auto;
+    margin: 40px auto;
+  }
+
+
+  /* Four items */
+  .about-us-list {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+  }
+
+
+  .about-us-content {
+    margin: 40px 0;
+    padding: 10px 25px;
+    flex: 1;
+  }
+
+
+  /* Icon */
+  .tea-cup {
+    display: block;
+    margin: 0 auto 10px;
+  }
+
+
+  /* Heading */
+  .about-brief h3 {
+    font-size: 19px;
+  }
+
+
+  /* Paragraph */
+  .about-brief p {
+    font-size: 13px;
+    line-height: 1.7;
+    margin: 5px 0;
+    padding: 5px 0;
+    overflow-x: visible;
+  }
+
+
+  /* Vertical separator */
+  /* .separate-line::after {
+    content: "";
+    display: block;
+    padding: 65px 0;
+    border: none;
+    border-left: 1px solid white;
+  } */
+   
+
+  .separate-line,
+  .separate-line::after,
+  .about-us-list hr {
+    display: none !important;
+  }
+
+
+  /* =========================================
+   GALLERY RESPONSIVE
+========================================= */
+
+
+#Gallery {
+    width: 100%;
+    padding: 35px 20px 30px;
+    overflow: hidden;
+  }
+
+  /* Gallery title */
+  .gallery-container .menu-title {
+    margin: 40px 0;
+    text-align: center;
+  }
+
+  .gallery-container .menu-title h2 {
+    font-size: 20px;
+  }
+
+  .gallery-container .menu-title h3 {
+    font-size: 30px;
+  }
+
+  .gallery-container .menu-title .show-line::after {
+    padding: 0 60px;
+  }
+
+
+  /* Gallery images */
+  .gallery-wrapper {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    justify-items: center;
+  }
+
+  .img-card {
+    width: 100%;
+    max-width: 420px;
+    height: 210px;
+    margin: 20px 0;
+    padding: 0;
+    
+  }
+  .img-card:hover img {
+  transform: none;
+  opacity: 1;
+  border: none;
+}
+
+
+/* =========================================
+   RESERVATION / BOOK TABLE
+   RESPONSIVE DESIGN
+========================================= */
+#bookTable {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .table-container {
+    width: 100%;
+    padding: 30px 20px 100px;
+  }
+
+
+  /* Title */
+
+  .table-container .menu-title {
+    margin: 40px 0;
+    text-align: center;
+  }
+
+  .table-container .menu-title h2 {
+    font-size: 20px;
+  }
+
+  .table-container .menu-title h3 {
+    font-size: 30px;
+  }
+
+  .table-container .menu-title .show-line::after {
+    padding: 0 60px;
+  }
+
+
+  /* Image + Form */
+
+  .bookTable-content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding-bottom: 30px;
+  }
+
+
+  /* Image */
+
+  .bookTable-content .col-1 {
+    width: 38%;
+    margin: 0;
+  }
+
+  .book-img {
+    position: static;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .book-img img {
+    width: 85%;
+    max-width: 330px;
+    height: auto;
+    margin: 0;
+  }
+
+
+  /* Form column */
+
+  .bookTable-content .col-2 {
+    width: 62%;
+    padding: 0;
+    margin: 0;
+    position: static;
+    height: auto;
+  }
+
+
+  /* Form */
+
+  .tableForm {
+    position: relative;
+    left: auto;
+    top: auto;
+
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+
+    margin: 0 auto;
+    padding: 22px 15px;
+
+    border-radius: 15px;
+  }
+
+
+  .reservationHading {
+    margin: -5px 5px 14px;
+  }
+
+
+  .rst-line::after {
+    padding: 0 20px;
+    margin: 0 5px;
+  }
+
+
+  /* Form fields */
+
+  .form-group {
+    margin: 2px 5px;
+    padding: 5px;
+  }
+
+  .form-group label {
+    font-size: 14px;
+  }
+
+  .form-group input,
+  textarea {
+    width: 100%;
+  }
+
+
+  .select-container {
+    width: 90%;
+    margin-left: 5px;
+  }
+
+  .select-container select {
+    padding: 1px 40px;
+  }
+
+
+  .seat {
+    margin-left: 10px;
+  }
+
+
+  .booktableButton {
+    width: 90%;
+    margin: 5px auto;
+    display: block;
+  }
+
+
+
+  /* =========================================
+   CONTACT + FOOTER RESPONSIVE
+========================================= */
+
+  #contact {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .contact-container {
+    width: 100%;
+    height: auto;
+    min-height: 600px;
+    background-size: cover;
+    background-position: center;
+  }
+
+
+  /* =========================
+     CONTACT CONTENT
+  ========================= */
+
+  .contact-content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+    padding: 90px 40px 0;
+  }
+
+
+  .contact-content .col-1 {
+    width: 55%;
+  }
+
+
+  .contact-content .col-2 {
+    width: 40%;
+  }
+
+
+  .col-1 h2 {
+    font-size: 30px;
+  }
+
+
+  .col-1 h1 {
+    font-size: 30px;
+    line-height: 1.3;
+  }
+
+
+  /* .col-1 button {
+    margin-top: 30px;
+    padding: 7px 15px;
+    font-size: 20px;
+  } */
+  .col-1 button {
+    /* display: block;
+    margin: 30px auto 0; */
+      display: block;
+    margin: 25px 0;
+    font-size: 18px;
+    padding: 7px 14px;
+}
+
+
+  .col-2 h3 {
+    font-size: 17px;
+    line-height: 1.5;
+    gap: 10px;
+  }
+
+
+  .contact-content-logo {
+    margin-left: -5px;
+  }
+   .contact-content .book-table i {
+        display: none;
+    }
+
+  /* =========================
+     FOOTER
+  ========================= */
+
+  .footer {
+    width: 100%;
+    margin: 120px 0 0;
+    padding: 25px 30px;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 20px;
+  }
+
+
+  .footer-brand {
+    width: 30%;
+  }
+
+
+  .quick-links {
+    width: 35%;
+  }
+
+
+  .follow-us {
+    width: 25%;
+    margin-bottom: 30px;
+  }
+
+
+  .headline {
+    font-size: 17px;
+  }
+
+
+  .quick-links-list {
+    height: auto;
+    align-items: center;
+  }
+
+
+  .quick-links-list li {
+    font-size: 13px;
+    margin: 6px 0;
+  }
+
+
+  .follow-us i {
+    padding: 7px 10px;
+    font-size: 18px;
+   margin: 2px 15px;
+  }
+
+
+}
+
+
+
+
 
 
 /* ---------- Mobile ---------- */
 
 @media (max-width: 768px) {
 
-  /* Navbar */
+  /* Hero Section And Navbar */
 
   .navbar {
     padding: 12px 20px;
@@ -1258,8 +1761,7 @@ label.required::after {
     
   }
 
-
-  /* Hero Image */
+/* Hero Image */
 
   .hero-img {
     width: 75%;
@@ -1267,7 +1769,578 @@ label.required::after {
     height: auto;
     margin: 40px auto 0;
   }
+
+
+/* =========================================
+    Menu Section  - RESPONSIVE DESIGN
+========================================= */
+ 
+
+   #menu {
+    padding: 30px 20px;
+  }
+
+  .menu-title {
+    margin: 35px 0;
+  }
+
+  .menu-title h2 {
+    font-size: 19px;
+    margin: 0;
+  }
+
+  .menu-title h3 {
+    font-size: 28px;
+  }
+
+  .menu-title .leaf1 {
+    width: 22px;
+    height: 22px;
+  }
+
+  .menu-title .leaf2 {
+    width: 20px;
+    height: 20px;
+  }
+
+  .menu-card {
+    width: 100%;
+    margin: 25px auto;
+  }
+
+  .menu-card-wrapper {
+    width: 100%;
+    margin: 25px auto;
+  }
+
+  .card {
+    height: 315px;
+  }
+  .card:hover {
+  transform: none !important;
+  box-shadow:4px -9px 15px rgba(0, 0, 0, 0.25) !important;
+  
 }
+
+  .card-img {
+    height: 175px;
+  }
+
+  .card-img img {
+    height: 185px;
+  }
+
+  .card-content {
+    margin: 3px 5px;
+    padding: 14px;
+  }
+
+  .card-content h3 {
+    font-size: 19px;
+    margin-bottom: 10px;
+  }
+
+  .card-content p {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+
+  .card-content .price {
+    margin-top: 10px;
+    font-size: 19px;
+  }
+
+  .badge {
+    font-size: 11px;
+  }
+
+/* =========================================
+   ABOUT US - RESPONSIVE DESIGN
+========================================= */
+
+#about {
+    padding: 35px 20px 30px;
+  }
+
+
+  /* Title */
+  .about-container .menu-title {
+    margin: 35px 0;
+  }
+
+  .about-container .menu-title h2 {
+    font-size: 19px;
+  }
+
+  .about-container .menu-title h3 {
+    font-size: 29px;
+  }
+
+  .show-line::after {
+    padding: 0 50px;
+  }
+
+
+  /* Wrapper */
+  .about-us-wrapper {
+    width: 100%;
+    margin: 35px 0px;
+    transform: translateX(70px)
+  }
+
+
+  /* 2 columns */
+  .about-us-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px 5px;
+  }
+
+
+  .about-us-content {
+    margin: 20px 0;
+    padding: 15px 15px;
+  }
+
+
+  /* Icon */
+  .tea-cup {
+    display: block;
+    margin: 0 auto 10px;
+  }
+
+
+  /* Heading */
+  .about-brief h3 {
+    font-size: 18px;
+  }
+
+
+  /* Paragraph */
+  .about-brief p {
+    font-size: 13px;
+    line-height: 1.6;
+    margin: 5px 0;
+    padding: 5px;
+    overflow: visible;
+  }
+
+
+  /* Horizontal separator on tablet */
+  .separate-line::after {
+    display: none;
+  }
+
+
+  /* Existing <hr> */
+  .about-us-list hr {
+    display: none;
+  }
+
+
+  /* =========================================
+   GALLERY RESPONSIVE
+========================================= */
+
+ #menu,
+  #about,
+  #Gallery,
+  #contact,
+  #bookTable {
+    scroll-margin-top: 35px;
+  }
+#Gallery {
+    padding: 30px 20px;
+  }
+
+  /* Gallery title */
+  .gallery-container .menu-title {
+    margin: 35px 0;
+  }
+
+  .gallery-container .menu-title h2 {
+    font-size: 19px;
+  }
+
+  .gallery-container .menu-title h3 {
+    font-size: 28px;
+  }
+
+  .gallery-container .menu-title .leaf1 {
+    width: 22px;
+    height: 22px;
+  }
+
+  .gallery-container .menu-title .leaf2 {
+    width: 20px;
+    height: 20px;
+  }
+
+  .gallery-container .menu-title .show-line::after {
+    padding: 0 50px;
+  }
+
+
+  /* Gallery */
+  .gallery-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .img-card {
+    width: 100%;
+    height: 190px;
+    margin: 15px 0;
+    padding: 0;
+  }
+
+.img-card:hover img {
+  transform: none;
+  opacity: 0.9;
+  border: none;
+}
+
+
+/* =========================================
+   RESERVATION / BOOK TABLE
+   RESPONSIVE DESIGN
+========================================= */
+
+
+ #bookTable {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .table-container {
+    padding: 30px 15px 80px;
+  }
+
+
+  /* Title */
+
+  .table-container .menu-title {
+    margin: 35px 0;
+  }
+
+  .table-container .menu-title h2 {
+    font-size: 19px;
+  }
+
+  .table-container .menu-title h3 {
+    font-size: 28px;
+  }
+
+  .table-container .menu-title .leaf1 {
+    width: 22px;
+    height: 22px;
+  }
+
+  .table-container .menu-title .leaf2 {
+    width: 20px;
+    height: 20px;
+  }
+
+  .table-container .menu-title .show-line::after {
+    padding: 0 45px;
+  }
+
+
+  /* Image + form */
+
+  .bookTable-content {
+    gap: 15px;
+    align-items: center;
+  }
+
+
+  /* Image */
+
+  .bookTable-content .col-1 {
+    width: 35%;
+    margin: 0;
+  }
+
+  .book-img {
+    position: static;
+  }
+
+  .book-img img {
+    width: 100%;
+    max-width: 260px;
+    margin: 0 auto;
+  }
+
+
+  /* Form */
+
+  .bookTable-content .col-2 {
+    width: 65%;
+    margin: 0;
+    padding: 0;
+    position: static;
+  }
+
+  .tableForm {
+    position: relative;
+
+    width: 100%;
+    height: auto;
+
+    left: auto;
+    top: auto;
+
+    padding: 20px 10px;
+    margin: 0;
+  }
+
+
+  .reservationHading {
+    font-size: 15px;
+    margin-bottom: 12px;
+  }
+
+  .smalltext {
+    font-size: 10px;
+  }
+
+
+  .rst-line::after {
+    padding: 0 12px;
+    margin: 0 4px;
+  }
+
+
+  /* Form rows */
+
+  .tableData .Row-1 {
+    display: flex;
+    gap: 5px;
+  }
+
+
+  .form-group {
+    margin: 2px 3px;
+    padding: 5px;
+  }
+
+  .form-group label {
+    font-size: 13px;
+    margin-left: 4px;
+  }
+
+
+  .form-group input,
+  textarea {
+    font-size: 13px;
+  }
+
+
+  .form-group input::placeholder {
+    font-size: 11px;
+  }
+
+
+  /* Guests */
+
+  .select-container {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .select-container select {
+    padding: 2px 10px;
+    font-size: 13px;
+  }
+
+
+  /* Seating */
+
+  .seat {
+    margin-left: 5px;
+    font-size: 13px;
+  }
+
+  .checkbox-group {
+    font-size: 12px;
+  }
+
+
+  .checkbox-group label {
+    font-size: 12px;
+  }
+
+
+  .checkbox-group input {
+    margin: 1px;
+  }
+
+
+  /* Button */
+
+  .booktableButton {
+    width: 95%;
+    margin: 5px auto;
+    display: block;
+    font-size: 14px;
+  }
+
+
+  /* Separator */
+
+  .separate-line2 {
+    display: none;
+  }
+
+  
+
+
+  /* =========================================
+   CONTACT + FOOTER RESPONSIVE
+========================================= */
+
+
+
+
+  .contact-container {
+    min-height: auto;
+    background-position: center;
+  }
+
+
+  /* =========================
+     CONTACT
+  ========================= */
+
+  .contact-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 35px;
+
+    padding: 70px 25px 0;
+  }
+
+
+  .contact-content .col-1,
+  .contact-content .col-2 {
+    width: 100%;
+  }
+
+
+  .col-1 h2 {
+    font-size: 27px;
+  }
+
+
+  .col-1 h1 {
+    font-size: 27px;
+    line-height: 1.3;
+  }
+
+
+  /* .col-1 button {
+    margin-top: 25px;
+    font-size: 18px;
+    padding: 7px 14px;
+  } */
+.col-1 button {
+    display: block;
+    margin: 25px auto 0;
+    font-size: 18px;
+    padding: 7px 14px;
+}
+
+  .col-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  .col-2 h3 {
+    justify-content: center;
+    margin: 5px 0;
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+
+  .contact-content-logo {
+    margin-left: 0;
+    padding-top: 4px;
+  }
+
+
+  /* =========================
+     FOOTER
+  ========================= */
+
+  .footer {
+    margin: 80px 0 0;
+    padding: 30px 20px;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    text-align: center;
+  }
+
+
+  .footer-brand,
+  .quick-links,
+  .follow-us {
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+
+  .footer-brand .cafe-name {
+    font-size: 23px;
+  }
+
+
+  .footer-brand small {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+
+
+  .headline {
+    font-size: 17px;
+  }
+
+
+  .quick-links-list {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  .quick-links-list li {
+    width: auto;
+    font-size: 13px;
+    margin: 5px 0;
+    padding: 0;
+  }
+
+
+  .follow-us {
+    grid-column: 1 / -1;
+  }
+
+
+  .follow-us i {
+    padding: 7px 12px;
+    font-size: 19px;
+  }
+}
+
+
+
+
 
 
 /* ---------- Small Mobile ---------- */
@@ -1335,4 +2408,740 @@ label.required::after {
     max-width: 320px;
     margin-top: 30px;
   }
+
+  /* Menu Section  */
+
+   #menu {
+    padding: 25px 15px;
+    overflow: hidden;
+  }
+
+  .menu-title {
+    margin: 30px 0;
+  }
+
+  .menu-title h2 {
+    font-size: 17px;
+    margin: 0;
+  }
+
+  .menu-title h3 {
+    font-size: 25px;
+    margin-top: 5px;
+  }
+
+  .menu-title .leaf1 {
+    width: 19px;
+    height: 19px;
+  }
+
+  .menu-title .leaf2 {
+    width: 18px;
+    height: 18px;
+  }
+
+  .menu-card {
+    width: 100%;
+    margin: 20px auto;
+    
+  }
+
+  .menu-card-wrapper {
+    width: 100%;
+    margin: 20px auto;
+    overflow: hidden;
+  }
+
+  .card {
+    height: 320px;
+  }
+  .card:hover {
+  transform: none !important;
+  box-shadow:4px -9px 15px rgba(0, 0, 0, 0.25) !important;
+  
 }
+
+  .card-img {
+    height: 185px;
+  }
+
+  .card-img img {
+    height: 195px;
+  }
+
+  .card-content {
+    padding: 14px 16px;
+  }
+
+  .card-content h3 {
+    font-size: 20px;
+    margin-bottom: 9px;
+  }
+
+  .card-content p {
+    font-size: 13px;
+    line-height: 1.4;
+  }
+
+  .card-content .price {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  .badge {
+    font-size: 11px;
+    padding: 2px 10px;
+  }
+
+
+  /* About Us - Responsive Design */
+
+   #about {
+    padding: 30px 15px 25px;
+    overflow: hidden;
+  }
+
+
+  /* Title */
+  .about-container .menu-title {
+    margin: 30px 0;
+  }
+
+  .about-container .menu-title h2 {
+    font-size: 17px;
+  }
+
+  .about-container .menu-title h3 {
+    font-size: 25px;
+  }
+
+  .about-container .menu-title .leaf1 {
+    width: 20px;
+    height: 20px;
+  }
+
+  .about-container .menu-title .leaf2 {
+    width: 18px;
+    height: 18px;
+  }
+
+
+  .show-line::after {
+    padding: 0 40px;
+  }
+
+
+  /* Wrapper */
+  .about-us-wrapper {
+    width: 100%;
+    margin: 30px auto;
+    transform: translateX(0px);
+  }
+
+
+  /* One item per row */
+  .about-us-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  .about-us-content {
+    width: 100%;
+    margin: 15px 0;
+    padding: 15px 20px;
+  }
+
+
+  /* Icon */
+  .tea-cup {
+    display: block;
+    margin: 0 auto 10px;
+  }
+
+
+  /* Heading */
+  .about-brief h3 {
+    font-size: 18px;
+  }
+
+
+  /* Paragraph */
+  .about-brief p {
+    font-size: 13px;
+    line-height: 1.6;
+    margin: 5px auto;
+    padding: 5px 10px;
+    max-width: 300px;
+    overflow: visible;
+  }
+
+
+  /* Hide old vertical separators */
+  .separate-line::after {
+    display: none;
+  }
+
+
+  /* Hide existing hr */
+  .about-us-list hr {
+    display: none;
+  }
+
+
+  /* Gallery - Responsive Design */
+
+   #Gallery {
+    padding: 25px 15px 30px;
+    overflow: hidden;
+  }
+
+
+  /* Gallery title */
+  .gallery-container .menu-title {
+    margin: 30px 0;
+  }
+
+  .gallery-container .menu-title h2 {
+    font-size: 17px;
+  }
+
+  .gallery-container .menu-title h3 {
+    font-size: 25px;
+  }
+
+  .gallery-container .menu-title .leaf1 {
+    width: 19px;
+    height: 19px;
+  }
+
+  .gallery-container .menu-title .leaf2 {
+    width: 18px;
+    height: 18px;
+  }
+
+  .gallery-container .menu-title .show-line::after {
+    padding: 0 40px;
+  }
+
+
+  /* One image per row */
+  .gallery-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+
+  .img-card {
+    width: 100%;
+    max-width: 100%;
+    height: 210px;
+    margin: 10px 0;
+    padding: 0;
+  }
+.img-card:hover img {
+  transform: none;
+  opacity: 0.9;
+  border: none;
+}
+
+  /* Keep image inside card */
+  .img-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+  /* Reservation - Responsive Design */
+
+
+  #bookTable {
+    width: 100%;
+    overflow: hidden;
+  }
+
+
+  .table-container {
+    width: 100%;
+    padding: 25px 12px 60px;
+  }
+
+
+  /* =====================================
+     TITLE
+  ===================================== */
+
+  .table-container .menu-title {
+    margin: 30px 0;
+  }
+
+  .table-container .menu-title h2 {
+    font-size: 17px;
+  }
+
+  .table-container .menu-title h3 {
+    font-size: 25px;
+  }
+
+  .table-container .menu-title .leaf1 {
+    width: 19px;
+    height: 19px;
+  }
+
+  .table-container .menu-title .leaf2 {
+    width: 18px;
+    height: 18px;
+  }
+
+  .table-container .menu-title .show-line::after {
+    padding: 0 35px;
+  }
+
+
+  /* =====================================
+     HIDE IMAGE ON MOBILE
+  ===================================== */
+
+  .bookTable-content .col-1 {
+    display: none;
+  }
+
+  .book-img {
+    display: none;
+  }
+
+  .separate-line2 {
+    display: none;
+  }
+
+
+  /* =====================================
+     FORM FULL WIDTH
+  ===================================== */
+
+  .bookTable-content {
+    width: 100%;
+    display: block;
+    padding: 0;
+  }
+
+
+  .bookTable-content .col-2 {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: static;
+    height: auto;
+  }
+
+
+  .tableForm {
+    position: relative;
+
+    width: 100%;
+    max-width: 100%;
+
+    height: auto;
+
+    left: auto;
+    top: auto;
+
+    margin: 0;
+    padding: 20px 10px;
+
+    border-radius: 12px;
+  }
+
+
+  /* =====================================
+     RESERVATION HEADING
+  ===================================== */
+
+  .reservationHading {
+    font-size: 15px;
+    margin: -3px 3px 15px;
+  }
+
+  .smalltext {
+    font-size: 10px;
+    margin-top: 3px;
+  }
+
+
+  .rst-line::after {
+    padding: 0 10px;
+    margin: 0 3px;
+  }
+
+
+  /* =====================================
+     FORM
+  ===================================== */
+
+  .tableData {
+    width: 100%;
+    margin-top: 0;
+  }
+
+
+  /* Make every row vertical */
+
+  .tableData .Row-1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+
+  .form-group {
+    width: 100%;
+    margin: 4px 0;
+    padding: 5px 3px;
+  }
+
+
+  .form-group label {
+    font-size: 13px;
+    margin: 2px 5px;
+  }
+
+
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    font-size: 13px;
+    margin: 2px 0;
+  }
+
+
+  .form-group input {
+    height: 40px;
+  }
+
+
+  .form-group input::placeholder {
+    font-size: 11px;
+  }
+
+
+  /* Error messages */
+
+  .form-group small {
+    font-size: 11px;
+    margin: -2px 5px;
+    min-height: 16px;
+  }
+
+
+  /* =====================================
+     GUEST SELECT
+  ===================================== */
+
+  .select-container {
+    width: 100%;
+    margin-left: 0;
+  }
+
+
+  .select-container select {
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 13px;
+  }
+
+
+  /* =====================================
+     SEATING PREFERENCE
+  ===================================== */
+
+  .checkbox-group {
+    width: 100%;
+    margin: 8px 0;
+    padding: 0 3px;
+  }
+
+
+  .seat {
+    margin: 5px 0 8px;
+    font-size: 14px;
+  }
+
+
+  .checkbox-group label {
+    font-size: 12px;
+    margin-right: 5px;
+  }
+
+
+  .checkbox-group input {
+    margin: 2px;
+  }
+
+
+  /* =====================================
+     SPECIAL REQUEST
+  ===================================== */
+
+  .form-group textarea {
+    min-height: 80px;
+    max-height: 120px;
+    margin-left: 0;
+  }
+
+
+  /* =====================================
+     BOOK BUTTON
+  ===================================== */
+
+  .booktableButton {
+    width: 100%;
+    margin: 10px 0 5px;
+    padding: 10px;
+    font-size: 14px;
+  }
+
+
+  /* =========================================
+   CONTACT + FOOTER RESPONSIVE
+========================================= */
+
+ .contact-container {
+    width: 100%;
+    min-height: auto;
+    height: auto;
+
+    background-size: cover;
+    background-position: center;
+  }
+
+
+  /* =========================
+     CONTACT CONTENT
+  ========================= */
+
+  .contact-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    padding: 55px 15px 0;
+    gap: 30px;
+
+    text-align: center;
+  }
+
+
+  .contact-content .col-1,
+  .contact-content .col-2 {
+    width: 100%;
+  }
+
+
+  .col-1 h2 {
+    font-size: 23px;
+    padding: 0;
+  }
+
+
+  .col-1 h1 {
+    font-size: 24px;
+    line-height: 1.3;
+  }
+
+
+  /* .col-1 button {
+    margin-top: 20px;
+    padding: 7px 13px;
+    font-size: 16px;
+  } */
+.col-1 button {
+    display: block;
+    margin: 20px auto 0;
+    padding: 3px 22px;
+    font-size: 16px;
+    text-align: center;
+}
+
+  /* Contact information */
+
+  .col-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  .col-2 h3 {
+    width: 100%;
+    justify-content: center;
+
+    margin: 5px 0;
+
+    font-size: 14px;
+    line-height: 1.6;
+
+    gap: 8px;
+  }
+
+
+  .contact-content-logo {
+    margin-left: 0;
+    padding-top: 3px;
+  }
+
+
+  .contact-content-logo img {
+    width: 22px;
+    height: 22px;
+  }
+
+
+  /* =========================
+     FOOTER
+  ========================= */
+
+  .footer {
+    width: 100%;
+
+    margin: 60px 0 0;
+    padding: 30px 15px;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    gap: 25px;
+  }
+
+
+  .footer-brand,
+  .quick-links,
+  .follow-us {
+    width: 100%;
+    margin: 0;
+  }
+
+
+  /* Brand */
+
+  .footer-brand .cafe-name {
+    font-size: 23px;
+  }
+
+
+  .footer-brand small {
+    display: block;
+    margin-top: 8px;
+    font-size: 12px;
+    line-height: 1.6;
+  }
+
+
+  /* Quick links */
+
+  .headline {
+    font-size: 17px;
+    margin-top: 0;
+  }
+
+
+  .quick-links-list {
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    padding: 0;
+    margin: 10px 0 0;
+  }
+
+
+  .quick-links-list li {
+    width: auto;
+
+    margin: 5px 0;
+    padding: 0;
+
+    font-size: 13px;
+  }
+
+
+  /* Follow us */
+
+  .follow-us {
+    margin: 0;
+  }
+
+
+  .follow-us i {
+    margin: 0 3px;
+    padding: 8px 10px;
+
+    font-size: 18px;
+  }
+
+}
+
+@media (max-width: 360px) {
+
+  .contact-content {
+    padding: 45px 10px 0;
+  }
+
+
+  .col-1 h2 {
+    font-size: 21px;
+  }
+
+
+  .col-1 h1 {
+    font-size: 22px;
+  }
+
+
+  .col-1 button {
+    font-size: 15px;
+  }
+
+
+  .col-2 h3 {
+    font-size: 13px;
+  }
+
+
+  .footer {
+    padding: 25px 10px;
+  }
+
+
+  .footer-brand .cafe-name {
+    font-size: 21px;
+  }
+
+
+  .headline {
+    font-size: 16px;
+  }
+
+
+  .quick-links-list li {
+    font-size: 12px;
+  }
+
+
+  .follow-us i {
+    font-size: 17px;
+    padding: 7px 9px;
+  }
+}
+
+
