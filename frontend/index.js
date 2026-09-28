@@ -140,13 +140,16 @@ form.addEventListener("submit", async (e) => {
     specialRequest: document.getElementById("special_request").value,
   };
 
-  const response = await fetch("http://localhost:5000/api/reservation", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
+  const response = await fetch(
+    "https://brew-bliss-coffee-cafe.onrender.com/api/reservation",
+    {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(reservationData),
     },
-    body: JSON.stringify(reservationData),
-  });
+  );
 
   const data = await response.json();
 
