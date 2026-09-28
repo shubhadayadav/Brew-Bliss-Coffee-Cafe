@@ -21,30 +21,30 @@ Brew & Bliss is a responsive full-stack coffee café website with an online tabl
 - 🔒 Environment variables for sensitive information
 
 ## 🛠️ Tech Stack
--Frontend: HTML5
-          CSS3
-         JavaScript
+- Frontend: HTML5 ,
+          CSS3 ,
+         JavaScript ,
 
--Backend: Node.js
-        Express.js
-         REST API
-        Nodemailer 
+- Backend: Node.js , 
+        Express.js ,
+         REST API ,
+        Nodemailer ,
 
--Database: MongoDB
-          Mongoose
+- Database: MongoDB ,
+          Mongoose ,
           MongoDB Atlas.
 
 
 #   How to Run the Project -: 
 1. Clone the repository
-- git clone YOUR_GITHUB_REPOSITORY_URL
+- git clone (https://github.com/shubhadayadav/Brew-Bliss-Coffee-Cafe.git)
 2. Open the project
--cd Brew-and-Bliss
+-  cd Brew-and-Bliss
 3. Install backend dependencies
 - cd backend
--npm install
+- npm install
 
-5. Create .env
+5. Create .env 
 - Inside the backend folder, create a .env file:
 
 - MONGO_URI=your_mongodb_connection_string
@@ -66,7 +66,7 @@ Brew & Bliss is a responsive full-stack coffee café website with an online tabl
 
 - Open index.html in your browser or use a local development server such as VS Code Live Server.
 
-- 🔐 Environment Variables
+ 🔐 Environment Variables
 
 - Sensitive information such as:
 
