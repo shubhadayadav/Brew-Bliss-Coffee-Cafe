@@ -2,23 +2,23 @@
 
 Brew & Bliss is a responsive full-stack coffee café website with an online table reservation system.
 
--🌐 About the Project
-- Brew & Bliss is a coffee café website created as a full-stack web development project.
--The project includes a responsive café landing page and an online table reservation system. Customers can enter their reservationdetails, submit the form, and receive a confirmation email after a successful reservation.
+🌐 About the Project
+-  Brew & Bliss is a coffee café website created as a full-stack web development project.
+-  The project includes a responsive café landing page and an online table reservation system. Customers can enter their reservationdetails, submit the form, and receive a confirmation email after a successful reservation.
 
-##✨ Features
--🏠 Responsive café landing page
--☕ Café menu with popular items
--❤️ About Us / Why People Love Us section
--📸 Café image gallery
--📅 Online table reservation
--📱 Fully responsive design for desktop, tablet and mobile
--✅ Client-side form validation
--📧 Reservation confirmation email
--🗄️ Reservation data stored in MongoDB
--⚠️ Duplicate email and phone number validation
--🎉 Reservation success popup
--🔒 Environment variables for sensitive information
+✨ Features
+-  🏠 Responsive café landing page
+-  ☕ Café menu with popular items
+- ❤️ About Us / Why People Love Us section
+- 📸 Café image gallery
+- 📅 Online table reservation
+- 📱 Fully responsive design for desktop, tablet and mobile
+- ✅ Client-side form validation
+- 📧 Reservation confirmation email
+- 🗄️ Reservation data stored in MongoDB
+- ⚠️ Duplicate email and phone number validation
+- 🎉 Reservation success popup
+- 🔒 Environment variables for sensitive information
 
 ## 🛠️ Tech Stack
 -Frontend: HTML5
@@ -35,7 +35,7 @@ Brew & Bliss is a responsive full-stack coffee café website with an online tabl
           MongoDB Atlas.
 
 
--#   How to Run the Project -: 
+#   How to Run the Project -: 
 1. Clone the repository
 - git clone YOUR_GITHUB_REPOSITORY_URL
 2. Open the project
@@ -60,13 +60,13 @@ Brew & Bliss is a responsive full-stack coffee café website with an online tabl
 
 - The backend runs on:
 
--http://localhost:5000
+- http://localhost:5000
 
 6. Open the frontend
 
--Open index.html in your browser or use a local development server such as VS Code Live Server.
+- Open index.html in your browser or use a local development server such as VS Code Live Server.
 
--## 🔐 Environment Variables
+- 🔐 Environment Variables
 
 - Sensitive information such as:
 
