@@ -1,5 +1,4 @@
-## ☕ Brew & Bliss
-
+## ☕ Brew & Bliss -- FullStack Website
 Brew & Bliss is a responsive full-stack coffee café website with an online table reservation system.
 
 🌐 About the Project
