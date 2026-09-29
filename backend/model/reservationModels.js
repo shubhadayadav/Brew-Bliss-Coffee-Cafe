@@ -11,12 +11,10 @@ const reservationSchema = new mongoose.Schema(
     telNumber: {
       type: Number,
       required: true,
-      // unique: true,
     },
     emailId: {
       type: String,
       required: true,
-      unique: true,
       lowercase: true,
       trim: true,
     },
