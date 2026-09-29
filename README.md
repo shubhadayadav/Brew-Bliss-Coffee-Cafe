@@ -15,7 +15,6 @@ Brew & Bliss is a responsive full-stack coffee café website with an online tabl
 - ✅ Client-side form validation
 - 📧 Reservation confirmation email
 - 🗄️ Reservation data stored in MongoDB
-- ⚠️ Duplicate email and phone number validation
 - 🎉 Reservation success popup
 - 🔒 Environment variables for sensitive information
 
