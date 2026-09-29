@@ -11,7 +11,7 @@ const reservationSchema = new mongoose.Schema(
     telNumber: {
       type: Number,
       required: true,
-      unique: true,
+      // unique: true,
     },
     emailId: {
       type: String,

@@ -141,7 +141,8 @@ form.addEventListener("submit", async (e) => {
   };
 
   const response = await fetch(
-    "https://brew-bliss-coffee-cafe.onrender.com/api/reservation",
+    // "http://localhost:5000/api/reservations",
+    "https://brew-bliss-coffee-cafe.onrender.com/api/reservations",
     {
       method: "POST",
       headers: {

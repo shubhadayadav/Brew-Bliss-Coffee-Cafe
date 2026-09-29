@@ -3,6 +3,6 @@ const router = express.Router();
 
 const { createReservation } = require("../controllers/reservationController");
 
-router.post("/reservation", createReservation);
+router.post("/reservations", createReservation);
 
 module.exports = router;
